@@ -10,4 +10,5 @@ public enum GEOSwiftError: Error, Equatable {
     case lengthIsZero
     case unexpectedEnvelopeResult(Geometry)
     case negativeBufferWidth
+    case negativeSimplifyTolerance
 }
